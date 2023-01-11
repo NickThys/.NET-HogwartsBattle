@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetHogwartsBattle.Domain", "DotNetHogwartsBattle.Domain\DotNetHogwartsBattle.Domain.csproj", "{6247D48E-228B-49ED-884D-71AF244DD82A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetHogwartsBattle.Common", "DotNetHogwartsBattle.Common\DotNetHogwartsBattle.Common.csproj", "{9240B206-8DB8-45A6-988F-804FFB8F0B7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetHogwartsBattle.Domain", "DotNetHogwartsBattle.Domain\DotNetHogwartsBattle.Domain.csproj", "{6247D48E-228B-49ED-884D-71AF244DD82A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{6247D48E-228B-49ED-884D-71AF244DD82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6247D48E-228B-49ED-884D-71AF244DD82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6247D48E-228B-49ED-884D-71AF244DD82A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9240B206-8DB8-45A6-988F-804FFB8F0B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9240B206-8DB8-45A6-988F-804FFB8F0B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9240B206-8DB8-45A6-988F-804FFB8F0B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9240B206-8DB8-45A6-988F-804FFB8F0B7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

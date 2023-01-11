@@ -1,4 +1,4 @@
-﻿using DotNetHogwartsBattle.Common.Enums;
+﻿using DotNetHogwartsBattle.Domain.Enums;
 
 namespace DotNetHogwartsBattle.Domain;
 
