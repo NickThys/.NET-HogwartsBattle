@@ -8,6 +8,7 @@ public class Action
     public Target Target { get; set; }
     public int NrOfActions { get; set; }
     public ActionType ActionType { get; set; }
+
     public override string ToString()
     {
         return Target + " " + NrOfActions + " x " + ActionType;
