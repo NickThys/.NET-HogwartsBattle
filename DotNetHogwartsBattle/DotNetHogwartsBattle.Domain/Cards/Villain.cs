@@ -1,6 +1,8 @@
-﻿namespace DotNetHogwartsBattle.Domain.Cards;
+﻿using DotNetHogwartsBattle.Common;
 
-public class Villain : Card, IGameDiscard
+namespace DotNetHogwartsBattle.Domain.Cards;
+
+public class Villain : GameDiscardable
 {
     public Ability Ability { get; set; }
     public int Health { get; set; }

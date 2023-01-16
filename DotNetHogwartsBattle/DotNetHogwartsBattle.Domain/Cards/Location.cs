@@ -1,6 +1,8 @@
-﻿namespace DotNetHogwartsBattle.Domain.Cards
+﻿using DotNetHogwartsBattle.Common;
+
+namespace DotNetHogwartsBattle.Domain.Cards
 {
-    public class Location:Card ,IGameDiscard
+    public class Location:GameDiscardable
     {
         public int LocationNr { get; set; }
         public int NrOfLocations { get; set; }

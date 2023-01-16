@@ -1,4 +1,4 @@
-﻿namespace DotNetHogwartsBattle.Domain.Enums;
+﻿namespace DotNetHogwartsBattle.Common.Enums;
 
 public enum ActionType
 {

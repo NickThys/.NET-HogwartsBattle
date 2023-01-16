@@ -1,4 +1,6 @@
-﻿namespace DotNetHogwartsBattle.Domain.Cards;
+﻿using DotNetHogwartsBattle.Common;
+
+namespace DotNetHogwartsBattle.Domain.Cards;
 
 public class DarkArts : Card
 {
