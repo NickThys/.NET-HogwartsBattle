@@ -1,6 +1,6 @@
 ﻿namespace DotNetHogwartsBattle.Domain.Cards;
 
-public class Villain : Card
+public class Villain : Card, IGameDiscard
 {
     public Ability Ability { get; set; }
     public int Health { get; set; }
@@ -8,6 +8,6 @@ public class Villain : Card
 
     public override string ToString()
     {
-        return "Ability: " + Ability + "\nHealth: " + Health + "\n Reward: " + Reward;
+        return Name + " " + CardKind + " Value: " + "Ability: " + Ability + "\nHealth: " + Health + "\n Reward: " + Reward;
     }
 }

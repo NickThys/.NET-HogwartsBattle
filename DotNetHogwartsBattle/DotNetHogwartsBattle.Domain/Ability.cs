@@ -10,3 +10,13 @@ public class Ability
         return string.Join(", ", Actions.Select(x => x.ToString())) + " Has to choose between = " + HasToChooseBetween;
     }
 }
+
+public class AbilityWithTrigger : Ability
+{
+    public Trigger Trigger { get; set; }
+
+    public override string ToString()
+    {
+        return string.Join(", ", Actions.Select(x => x.ToString())) + " Has to choose between = " + HasToChooseBetween;
+    }
+}
