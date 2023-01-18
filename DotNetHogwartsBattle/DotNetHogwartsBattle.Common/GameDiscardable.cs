@@ -1,4 +1,4 @@
 ﻿namespace DotNetHogwartsBattle.Common;
-public abstract class GameDiscardable:Card
+public abstract class GameDiscardable : Card
 {
 }

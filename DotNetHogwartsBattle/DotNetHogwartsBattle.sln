@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetHogwartsBattle.Domain", "DotNetHogwartsBattle.Domain\DotNetHogwartsBattle.Domain.csproj", "{6247D48E-228B-49ED-884D-71AF244DD82A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetHogwartsBattle.Common", "DotNetHogwartsBattle.Common\DotNetHogwartsBattle.Common.csproj", "{B7C494B9-E0C0-4DDE-A330-B710804C3211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetHogwartsBattle.Common", "DotNetHogwartsBattle.Common\DotNetHogwartsBattle.Common.csproj", "{B7C494B9-E0C0-4DDE-A330-B710804C3211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetHogwartsBattle.DataAccess", "DotNetHogwartsBattle.DataAccess\DotNetHogwartsBattle.DataAccess.csproj", "{DBB6FA67-F2D2-43CF-B32A-C6E46FEF0238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetHogwartsBattle.Api", "DotNetHogwartsBattle.Api\DotNetHogwartsBattle.Api.csproj", "{05CD863B-3BF9-4B71-96A2-9C3B96994632}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{B7C494B9-E0C0-4DDE-A330-B710804C3211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7C494B9-E0C0-4DDE-A330-B710804C3211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7C494B9-E0C0-4DDE-A330-B710804C3211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB6FA67-F2D2-43CF-B32A-C6E46FEF0238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB6FA67-F2D2-43CF-B32A-C6E46FEF0238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB6FA67-F2D2-43CF-B32A-C6E46FEF0238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB6FA67-F2D2-43CF-B32A-C6E46FEF0238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05CD863B-3BF9-4B71-96A2-9C3B96994632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05CD863B-3BF9-4B71-96A2-9C3B96994632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05CD863B-3BF9-4B71-96A2-9C3B96994632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05CD863B-3BF9-4B71-96A2-9C3B96994632}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

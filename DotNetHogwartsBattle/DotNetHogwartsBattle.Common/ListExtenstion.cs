@@ -4,7 +4,7 @@
     {
         public static List<T> Randomize<T>(this List<T> source)
         {
-            var rnd=new Random();
+            var rnd = new Random();
             return source.AsEnumerable().OrderBy((_) => rnd.Next()).ToList();
         }
     }
