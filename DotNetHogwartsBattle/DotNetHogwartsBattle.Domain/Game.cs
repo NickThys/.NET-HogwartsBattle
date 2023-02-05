@@ -13,6 +13,7 @@ public class Game
     public Deck<Location>? LocationDeck { get; set; }
     public Location? Location { get; set; }
     public Deck<GameDiscardable> DiscardDeck { get; set; } = new();
+    public List<AbilityWithTrigger> AbilitiesToBeTriggered { get; set; }
     public int NrOfVillainsActive { get; set; } = 1;
     public virtual bool HasVillains => Villains.Any() || VillainsDeck.Cards.Any();
 }

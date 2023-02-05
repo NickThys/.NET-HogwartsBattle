@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DotNetHogwartsBattle.DataAccess;
 
-public class HogwartsBattleContext:DbContext
+public class HogwartsBattleContext : DbContext
 {
-    public HogwartsBattleContext(DbContextOptions options):base(options)
+    public HogwartsBattleContext(DbContextOptions options) : base(options)
     {
-        
+
     }
 
     public DbSet<Card> Cards { get; set; }

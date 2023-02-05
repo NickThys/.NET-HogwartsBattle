@@ -1,3 +1,4 @@
+using DotNetHogwartsBattle.Application;
 using DotNetHogwartsBattle.DataAccess.Registration;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,9 +7,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDatabaseRegistration(builder.Configuration);
 builder.Services.AddControllers();
+builder.Services.AddApplicationServices();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 
