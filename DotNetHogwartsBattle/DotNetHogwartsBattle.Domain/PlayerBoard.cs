@@ -12,6 +12,9 @@ public class PlayerBoard
 
     public int NrOfAttacks { get; set; }
     public int NrOfInfluenceTokens { get; set; }
+    /// <summary>
+    /// The cards which can be played this turn.
+    /// </summary>
     public List<StartHero> PlayableCards { get; set; } = new();
     public Deck<StartHero> DrawDeck { get; set; } = new();
     public Deck<StartHero> DiscardDeck { get; set; } = new();

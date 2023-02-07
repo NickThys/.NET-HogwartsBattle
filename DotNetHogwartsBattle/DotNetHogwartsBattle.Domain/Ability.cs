@@ -3,7 +3,15 @@
 public class Ability
 {
     public int Id { get; set; }
+
+    /// <summary>
+    /// When the player needs to choose between 2 <see cref="Action"/> set this to true.
+    /// </summary>
     public bool HasToChooseBetween { get; set; }
+
+    /// <summary>
+    /// A list of all the action that can be done by this <see cref="Ability"/>
+    /// </summary>
     public IEnumerable<Action> Actions { get; set; }
     public override string ToString()
     {
